@@ -242,6 +242,8 @@
 //     }, 500);
 //   }
 
+
+
 //   render() {
 //     return (
 //       // Try setting `flexDirection` to `column`.
