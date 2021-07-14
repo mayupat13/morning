@@ -326,6 +326,7 @@ import HomeScreen from './src/screens/HomeScreen'
 import Settings from './src/screens/Settings'
 import BottomTab from './src/screens/BottomTab'
 import TopTab from './src/screens/TopTab'
+import Drawer from './src/screens/Drawer'
 
 
 function Screen2() {
@@ -349,6 +350,7 @@ function App() {
         <myStack.Screen name="BottomTab" component={BottomTab} />
         <myStack.Screen name="Screen2" component={Screen2} />
         <myStack.Screen name="TopTab" component={TopTab} />
+        <myStack.Screen name="Drawer" component={Drawer} options={{ headerShown: false }} />
       </myStack.Navigator>
     </NavigationContainer>
   );

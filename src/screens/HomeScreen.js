@@ -12,6 +12,7 @@ const HomeScreen = (props) => {
       <Button onPress={() => props.navigation.navigate('MaziListWithChildComponent')} title="Flatlist with child component" />
       <Button onPress={() => props.navigation.navigate('BottomTab')} title="Bottom Tab" />
       <Button onPress={() => props.navigation.navigate('TopTab')} title="Top Tab" />
+      <Button onPress={() => props.navigation.navigate('Drawer')} title="Drawer Navigator" />
     </View>
   );
 }
