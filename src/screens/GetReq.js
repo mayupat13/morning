@@ -33,6 +33,7 @@ const GetReq = () => {
     myForm.append('password', 'mayu');
     myForm.append('playerid', 'jsdcie iefhc kjefn ');
 
+
     console.log('myForm', myForm);
 
 
