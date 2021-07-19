@@ -327,6 +327,7 @@ import Settings from './src/screens/Settings'
 import BottomTab from './src/screens/BottomTab'
 import TopTab from './src/screens/TopTab'
 import Drawer from './src/screens/Drawer'
+import GetReq from './src/screens/GetReq'
 
 
 function Screen2() {
@@ -351,6 +352,7 @@ function App() {
         <myStack.Screen name="Screen2" component={Screen2} />
         <myStack.Screen name="TopTab" component={TopTab} />
         <myStack.Screen name="Drawer" component={Drawer} options={{ headerShown: false }} />
+        <myStack.Screen name="GETREQ" component={GetReq} />
       </myStack.Navigator>
     </NavigationContainer>
   );
