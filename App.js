@@ -328,7 +328,8 @@ import BottomTab from './src/screens/BottomTab'
 import TopTab from './src/screens/TopTab'
 import Drawer from './src/screens/Drawer'
 import GetReq from './src/screens/GetReq'
-
+import PostReq from './src/screens/PostReq'
+import SplashScreen from './src/screens/SplashScreen'
 
 function Screen2() {
   return (
@@ -343,7 +344,7 @@ const myStack = createStackNavigator();
 function App() {
   return (
     <NavigationContainer>
-      <myStack.Navigator initialRouteName="Home">
+      <myStack.Navigator initialRouteName="SplashScreen">
         <myStack.Screen name="Home" component={HomeScreen} />
         <myStack.Screen name="Setting" component={Settings} options={{ headerShown: false }} />
         <myStack.Screen name="MaziList" component={MyFlatList} />
@@ -353,6 +354,8 @@ function App() {
         <myStack.Screen name="TopTab" component={TopTab} />
         <myStack.Screen name="Drawer" component={Drawer} options={{ headerShown: false }} />
         <myStack.Screen name="GETREQ" component={GetReq} />
+        <myStack.Screen name="POSTREQ" component={PostReq} />
+        <myStack.Screen name="SplashScreen" component={SplashScreen} />
       </myStack.Navigator>
     </NavigationContainer>
   );

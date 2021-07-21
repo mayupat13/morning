@@ -14,6 +14,7 @@ const HomeScreen = (props) => {
       <Button onPress={() => props.navigation.navigate('TopTab')} title="Top Tab" />
       <Button onPress={() => props.navigation.navigate('Drawer')} title="Drawer Navigator" />
       <Button onPress={() => props.navigation.navigate('GETREQ')} title="GET Request" />
+      <Button onPress={() => props.navigation.navigate('POSTREQ')} title="POST Request" />
     </View>
   );
 }
